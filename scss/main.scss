@@ -1,0 +1,56 @@
+html {
+    font-family: Helvetica,Arial,sans-serif;
+}
+/* inicio - navbar */
+header {
+    height: 80px;
+    background-color: black;    
+    box-sizing: border-box;
+}
+ header div.container{    
+    padding: auto;
+    margin-top: 9px;
+    
+    
+} 
+.writerLogo{    
+    margin: auto 5px;    
+    box-sizing: border-box;    
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+#navBarPrimary ul li a {
+    color: white;
+    font-weight: bold;
+    padding: 0 17px;
+}
+.separador {
+    border: 1px white solid;    
+    height: 20px;
+    margin: auto 17px;
+    
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {  }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {  }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {  }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+    body {
+        max-width: 100%;
+        height: 100%;
+        background-color: blue;
+        
+    }
+ }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {  }
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss"
