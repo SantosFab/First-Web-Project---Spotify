@@ -8,16 +8,14 @@
     <link rel="icon" type="image/x-icon" href="/image/favicon.ico">
   </head>
   <body>
-    <header>
-      <nav class="navbar  navbar-expand-lg">
-        <div class="container">
-          <div class="navbar-brand d-flex flex-row align-items-center">
+    <header class="navbar navbar-expand-lg">      
+        <nav class="container">
+          <div class="navbar-brand">
             <i class="fa-brands fa-spotify fa-2xl" style="color: #ffffff;"></i>
-            <p class="writerLogo">Spotify</p>
+            <a class="writerLogo text-decoration-none">Spotify</a>
           </div>
-          <button class="navbar-toggler" type="button" data-bs-tog="collapse" data-bs-target="navBarPrimary" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="'Toggle navigation">
-            <span class="navbar-toggler-icon toggleColor"></span>
-
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navBarPrimary" aria-controls="navBarPrimary" aria-expanded="false" aria-label="alternar" >
+            <i class="fa-solid fa-bars fa-lg" style="color: #ffffff;"></i>
           </button>
           <nav class="collapse navbar-collapse" id="navBarPrimary">
             <ul class="navbar-nav ms-auto">
@@ -36,7 +34,7 @@
                   Baixar
                 </a>
               </li>
-              <div class="separador"></div>
+              <div class="separador d-md-none d-lg-block"></div>
               <li class="nav-item">
                 <a class="nav-link" href="">
                   Inscrever-se
@@ -49,8 +47,7 @@
               </li>
             </ul>
           </nav>
-        </div>
-      </nav>
+        </nav>      
     </header>      
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/f73ef49375.js" crossorigin="anonymous"></script>
