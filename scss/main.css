@@ -1,6 +1,23 @@
 @charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   font-family: Helvetica, Arial, sans-serif;
+}
+
+div.section1 div a {
+  padding: 14px 32px;
+}
+
+.termo_condições {
+  font-size: 12px;
+}
+
+p.termo_condições a {
+  color: white;
 }
 
 header {
@@ -26,6 +43,8 @@ header div.container {
   color: white;
   font-weight: bold;
   padding: 0 17px;
+  margin: 7px 0;
+  display: inline-block;
 }
 
 .separador {
@@ -34,11 +53,49 @@ header div.container {
   margin: auto 17px;
 }
 
-#navBarPrimary ul li a {
-  margin: 6px 0;
-  display: inline-block;
+.section1 {
+  background-color: #1D75DE;
+  color: white;
+  padding-top: 48px;
 }
 
+.section1 section.container h1, .section1 section.container .h1 {
+  font-size: 2em;
+}
+
+.initDescripion {
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.section1 div a {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  div.section1 div a.btn-dark {
+    margin-right: 10px;
+  }
+  .section1 section.container h1, .section1 section.container .h1 {
+    font-size: 2.7em;
+  }
+  .initDescripion {
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 992px) {
+  header {
+    height: 80px;
+  }
+  .section1 section.container h1, .section1 section.container .h1 {
+    font-size: 3em;
+  }
+  .initDescripion {
+    font-size: 2em;
+  }
+}
 /*!
  * Bootstrap  v5.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors

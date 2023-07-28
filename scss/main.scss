@@ -1,7 +1,22 @@
-  html {
+//Global e ou caracteriscas gerais
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
     font-family: Helvetica,Arial,sans-serif;
 }
 
+div.section1 div a {
+    padding: 14px 32px;
+}
+ .termo_condições {
+     font-size: 12px;
+}
+p.termo_condições a {    
+    color: white;    
+} 
+//navbar
  header {
     background-color: black;     
     box-sizing: border-box;
@@ -25,26 +40,72 @@
     color: white;
     font-weight: bold;
     padding: 0 17px;
+    margin: 7px 0;
+    display: inline-block;
 }
 .separador {
     border: 1px white solid;    
     height: 18px;
     margin: auto 17px;
     
-}  
+}
 
+//Primeira section
+.section1 {
+    background-color: #1D75DE;
+    color: white;
+    padding-top: 48px;
+}
+
+.section1 section.container h1 {
+    font-size: 2em;
+    
+}
+
+.initDescripion {
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.section1 div a {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+ 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {  }
+@media (min-width: 576px) { 
+    
+ }
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {  }
-#navBarPrimary ul li a {
-    margin: 6px 0;
-    display: inline-block;
-} 
+@media (min-width: 768px) { 
+    div.section1 div a.btn-dark {
+        margin-right: 10px; 
+    }
+    .section1 section.container h1 {
+        font-size: 2.7em;
+        
+    }
+    .initDescripion {
+        font-size: 1.5em;
+    }
+ }
+
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { 
+    header {
+        height: 80px;
     
+    }    
+    .section1 section.container h1 {
+        font-size: 3em;
+        
+    }
+    .initDescripion {
+        font-size: 2em;
+    }
+ 
  }
 
 // X-Large devices (large desktops, 1200px and up)
