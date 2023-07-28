@@ -53,6 +53,10 @@ header div.container {
   margin: auto 17px;
 }
 
+nav#navBarPrimary a:hover {
+  color: #0BC660;
+}
+
 .section1 {
   background-color: #1D75DE;
   color: white;
