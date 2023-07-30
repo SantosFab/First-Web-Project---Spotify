@@ -8,16 +8,23 @@ html {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-div.section1 div a {
-  padding: 14px 32px;
-}
-
 .termo_condições {
   font-size: 12px;
 }
 
 p.termo_condições a {
   color: white;
+}
+
+div.card p.termo_condições a {
+  color: black;
+}
+
+.section1 div a, div.card-body ul + a {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding: 14px 32px;
 }
 
 header {
@@ -72,12 +79,6 @@ nav#navBarPrimary a:hover {
   font-weight: bold;
 }
 
-.section1 div a {
-  font-size: 14px;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
 .section2 {
   margin: 35px 0;
 }
@@ -107,6 +108,45 @@ div.iconSectionTwo h2, div.iconSectionTwo .h2 {
   font-weight: 700;
 }
 
+div.bgSection3 {
+  background-color: #EFEFEF;
+  padding: 35px 15px;
+}
+
+div.bgSection3 h1, div.bgSection3 .h1 {
+  font-weight: 700;
+}
+
+.descritionh1 {
+  text-align: center;
+  font-size: 1.1em;
+  padding: 0 10px;
+}
+
+div.card {
+  width: 480px;
+}
+
+div.card span {
+  padding: 4px 8px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  font-size: 0.9em;
+}
+
+div.card h2, div.card .h2 {
+  font-weight: 700;
+}
+
+div.card h2 + p, div.card .h2 + p {
+  font-size: 1.1em;
+}
+
+div.card ul li {
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+
 @media (min-width: 768px) {
   div.section1 div a.btn-dark {
     margin-right: 10px;
@@ -116,6 +156,10 @@ div.iconSectionTwo h2, div.iconSectionTwo .h2 {
   }
   .initDescripion {
     font-size: 1.5em;
+  }
+  section.section2 h1, section.section2 .h1 {
+    font-size: 3em;
+    margin-bottom: 80px;
   }
   .section2-layout {
     display: flex;

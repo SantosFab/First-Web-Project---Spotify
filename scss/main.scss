@@ -3,19 +3,30 @@
     margin: 0;
     padding: 0;
 }
+
 html {
     font-family: Helvetica,Arial,sans-serif;
 }
 
-div.section1 div a {
-    padding: 14px 32px;
-}
- .termo_condições {
+.termo_condições {
      font-size: 12px;
 }
+
 p.termo_condições a {    
     color: white;    
-} 
+}
+
+div.card p.termo_condições a {
+    color: black
+}
+
+.section1 div a, div.card-body ul+a {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 14px 32px;    
+}
+
 //navbar
  header {
     background-color: black;     
@@ -23,17 +34,20 @@ p.termo_condições a {
     margin: 9 auto;
 
 } 
+
  header div.container{    
     padding: auto;
     margin-top: 9px;    
 } 
+
  .writerLogo{    
     margin: auto 5px;    
     box-sizing: border-box;    
     color: white;
     font-weight: bold;
     font-size: 1.2em;    
-} 
+}
+
 #navBarPrimary ul li a {
     color: white;
     font-weight: bold;
@@ -41,11 +55,13 @@ p.termo_condições a {
     margin: 7px 0;
     display: inline-block;
 }
+
 .separador {
     border: 1px white solid;    
     height: 18px;
     margin: auto 17px;
 }
+
 nav#navBarPrimary a:hover {
     color: #0BC660;
 }
@@ -66,11 +82,8 @@ nav#navBarPrimary a:hover {
     font-weight: bold;
 }
 
-.section1 div a {
-    font-size: 14px;
-    font-weight: bold;
-    margin-bottom: 20px;    
-}
+
+
 //inicio da section 2
 .section2 {
     margin: 35px 0;    
@@ -80,6 +93,7 @@ section.section2 h1{
     font-weight: 700;
     margin-bottom: 40px;
 }
+
 div.iconSectionTwo {
     display: flex;
     align-items: center;
@@ -95,10 +109,52 @@ div.iconSectionTwo i {
     background-color: #EEEEEE;
     margin: 0px 20px 40px 0;
 }
+
 div.iconSectionTwo h2 {
     font-weight: 700;    
 }
- 
+
+//inicio da terceira section
+div.bgSection3 {
+    background-color: #EFEFEF;
+    padding: 35px 15px;    
+}
+
+div.bgSection3 h1 {
+    font-weight: 700;
+}
+
+.descritionh1 {
+    text-align: center;
+    font-size: 1.1em;
+    padding: 0 10px;    
+}
+
+div.card {
+   width: 480px;
+}
+
+div.card span {
+    padding: 4px 8px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    font-size: 0.9em;    
+}   
+
+div.card h2 {
+    font-weight: 700;
+}
+
+div.card h2+p{
+    font-size: 1.1em;
+}
+
+
+div.card ul li {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
     
@@ -115,6 +171,10 @@ div.iconSectionTwo h2 {
     }
     .initDescripion {
         font-size: 1.5em;
+    }
+    section.section2 h1{
+       font-size: 3em;
+       margin-bottom: 80px;
     }
     .section2-layout{
         display: flex;
