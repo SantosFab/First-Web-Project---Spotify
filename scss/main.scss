@@ -25,16 +25,14 @@ p.termo_condições a {
 } 
  header div.container{    
     padding: auto;
-    margin-top: 9px;
-    
-    
+    margin-top: 9px;    
 } 
  .writerLogo{    
     margin: auto 5px;    
     box-sizing: border-box;    
     color: white;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.2em;    
 } 
 #navBarPrimary ul li a {
     color: white;
@@ -47,7 +45,6 @@ p.termo_condições a {
     border: 1px white solid;    
     height: 18px;
     margin: auto 17px;
-    
 }
 nav#navBarPrimary a:hover {
     color: #0BC660;
@@ -62,7 +59,6 @@ nav#navBarPrimary a:hover {
 
 .section1 section.container h1 {
     font-size: 2em;
-    
 }
 
 .initDescripion {
@@ -73,7 +69,34 @@ nav#navBarPrimary a:hover {
 .section1 div a {
     font-size: 14px;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 20px;    
+}
+//inicio da section 2
+.section2 {
+    margin: 35px 0;    
+}
+
+section.section2 h1{
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+div.iconSectionTwo {
+    display: flex;
+    align-items: center;
+}
+
+div.iconSectionTwo i {
+    display: flex;
+    width: 110px;
+    height: 110px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #EEEEEE;
+    margin: 0px 20px 40px 0;
+}
+div.iconSectionTwo h2 {
+    font-weight: 700;    
 }
  
 // Small devices (landscape phones, 576px and up)
@@ -93,27 +116,83 @@ nav#navBarPrimary a:hover {
     .initDescripion {
         font-size: 1.5em;
     }
+    .section2-layout{
+        display: flex;
+        justify-content: center;       
+    }
+    div.iconSectionTwo {
+        display: flex;
+        align-items: start;
+    }
+    div.iconSectionTwo i {
+        display: flex;
+        width: 90px;
+        height: 90px;       
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background-color: #EEEEEE;
+        margin: 0 20px 40px 0;        
+    }    
+    div i.fa-solid{
+        flex-shrink: 0
+    }
+    div.section2-layout h2{
+        font-size: 1.3em;        
+    }
+
  }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { 
     header {
         height: 80px;
-    
     }    
     .section1 section.container h1 {
         font-size: 3em;
-        
     }
     .initDescripion {
         font-size: 2em;
     }
- 
+    div.iconSectionTwo h2 {
+        margin-right: 20px;
+        font-size: 2em;
+    }
+    div.iconSectionTwo i {
+        width: 120px;
+        height: 120px;
+    }
  }
 
 // X-Large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { 
-    
+    div.iconSectionTwo   { //cada unid
+        display: flex;
+        flex-direction: column;        
+        align-items: center;       
+    }
+    div.section2-layout>div {
+        display: flex;
+    }
+    div.iconSectionTwo {
+        width: 285px;
+        height: 285px;
+        box-sizing: border-box;
+    }
+    div.iconSectionTwo i {
+        width: 142px;
+        height: 142px;       
+        margin: 0 70px 40px 70px;        
+    }
+    div.iconSectionTwo h2 {
+        margin: 0 0 10px 0;
+        font-size: 1.3em;
+        text-align: center;
+    }
+    div.iconSectionTwo div p {
+        text-align: center;
+    }
+
  }
 
 // XX-Large devices (larger desktops, 1400px and up)
