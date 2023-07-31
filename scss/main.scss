@@ -132,13 +132,16 @@ div.bgSection3 h1 {
 
 div.card {
    width: 480px;
+   margin-bottom: 20px;
 }
 
 div.card span {
     padding: 4px 8px;
     font-weight: 800;
     margin-bottom: 10px;
-    font-size: 0.9em;    
+    font-size: 0.9em;
+    cursor: text;
+    user-select: auto;    
 }   
 
 div.card h2 {
@@ -146,13 +149,17 @@ div.card h2 {
 }
 
 div.card h2+p{
-    font-size: 1.1em;
+    font-size: 1.1em;    
 }
 
+div.card span.btn-outline-primary:hover {
+    background-color: white;
+    color: #0d6efd;
+} 
 
 div.card ul li {
     font-size: 1.2em;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -251,6 +258,17 @@ div.card ul li {
     }
     div.iconSectionTwo div p {
         text-align: center;
+    }
+    div.card {
+        width: 300px;
+        margin: 0 16px 0 0;
+        
+     }
+     div.card h2+p{
+        font-size: 1.1em;    
+    }
+    div.card ul {
+        height: 443.28px;
     }
 
  }

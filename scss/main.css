@@ -125,6 +125,7 @@ div.bgSection3 h1, div.bgSection3 .h1 {
 
 div.card {
   width: 480px;
+  margin-bottom: 20px;
 }
 
 div.card span {
@@ -132,6 +133,10 @@ div.card span {
   font-weight: 800;
   margin-bottom: 10px;
   font-size: 0.9em;
+  cursor: text;
+  -webkit-user-select: auto;
+     -moz-user-select: auto;
+          user-select: auto;
 }
 
 div.card h2, div.card .h2 {
@@ -142,9 +147,14 @@ div.card h2 + p, div.card .h2 + p {
   font-size: 1.1em;
 }
 
+div.card span.btn-outline-primary:hover {
+  background-color: white;
+  color: #0d6efd;
+}
+
 div.card ul li {
   font-size: 1.2em;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 @media (min-width: 768px) {
@@ -231,6 +241,16 @@ div.card ul li {
   }
   div.iconSectionTwo div p {
     text-align: center;
+  }
+  div.card {
+    width: 300px;
+    margin: 0 16px 0 0;
+  }
+  div.card h2 + p, div.card .h2 + p {
+    font-size: 1.1em;
+  }
+  div.card ul {
+    height: 443.28px;
   }
 }
 /*!
