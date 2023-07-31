@@ -28,19 +28,19 @@ div.card p.termo_condições a {
 }
 
 //navbar
- header {
+header {
     background-color: black;     
     box-sizing: border-box;
     margin: 9 auto;
 
 } 
 
- header div.container{    
+header div.container{    
     padding: auto;
     margin-top: 9px;    
 } 
 
- .writerLogo{    
+.writerLogo{    
     margin: auto 5px;    
     box-sizing: border-box;    
     color: white;
@@ -162,6 +162,73 @@ div.card ul li {
     margin: 10px 0;
 }
 
+//footer
+footer.footer {
+    background-color: black;
+    padding: 50px 0;
+}
+
+footer.footer div dt, footer.footer div a {
+    color: #919496;
+}
+
+footer.footer div a.writerLogo, footer.footer div a.writerLogo:hover {
+    color: white;
+}
+
+footer.footer div dt{
+    margin: 50px 0 22px;
+    
+}
+
+footer.footer div a {
+    text-decoration: none;
+}
+
+footer.footer div a:hover, div#iconsFooter a:hover {
+    color: #0BC660;
+}
+
+footer.footer div dd a{
+    color: white;     
+    font-size: 1.2em;
+}
+
+footer.footer div dd{
+    margin-bottom: 20px;
+}
+
+div#iconsFooter {
+    display: flex;
+    flex-direction: row;   
+}
+
+div#iconsFooter a {
+    color: white;
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: #222326;
+    display: flex;
+    align-items: center;    
+    justify-content: center;     
+}
+
+footer.footer div.text-end, footer.footer div.companyPolitics a {
+    font-size: 0.7em;
+}
+
+footer.footer div.companyPolitics a {
+    margin: 0 30px 30px 0;      
+}
+
+#IamFabricio {
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+}
+
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
     
@@ -235,6 +302,21 @@ div.card ul li {
         width: 120px;
         height: 120px;
     }
+
+    //footer
+    footer.footer div dt{
+        margin: 0;
+        
+    }
+
+    div#iconsFooter a {
+        width: 60px;
+        height: 60px;
+    }
+
+    footer.footer div dd{
+        margin-top: 20px;
+    }
  }
 
 // X-Large devices (large desktops, 1200px and up)
@@ -266,7 +348,7 @@ div.card ul li {
     div.iconSectionTwo div p {
         text-align: center;
     }
-    
+
     //section 3
     div.card {
         width: 300px;

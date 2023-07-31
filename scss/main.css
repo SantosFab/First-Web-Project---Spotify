@@ -157,6 +157,71 @@ div.card ul li {
   margin: 10px 0;
 }
 
+footer.footer {
+  background-color: black;
+  padding: 50px 0;
+}
+
+footer.footer div dt, footer.footer div a {
+  color: #919496;
+}
+
+footer.footer div a.writerLogo, footer.footer div a.writerLogo:hover {
+  color: white;
+}
+
+footer.footer div dt {
+  margin: 50px 0 22px;
+}
+
+footer.footer div a {
+  text-decoration: none;
+}
+
+footer.footer div a:hover, div#iconsFooter a:hover {
+  color: #0BC660;
+}
+
+footer.footer div dd a {
+  color: white;
+  font-size: 1.2em;
+}
+
+footer.footer div dd {
+  margin-bottom: 20px;
+}
+
+div#iconsFooter {
+  display: flex;
+  flex-direction: row;
+}
+
+div#iconsFooter a {
+  color: white;
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: #222326;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer.footer div.text-end, footer.footer div.companyPolitics a {
+  font-size: 0.7em;
+}
+
+footer.footer div.companyPolitics a {
+  margin: 0 30px 30px 0;
+}
+
+#IamFabricio {
+  color: white;
+  margin-top: 50px;
+  text-align: center;
+}
+
 @media (min-width: 768px) {
   div.section1 div a.btn-dark {
     margin-right: 10px;
@@ -213,6 +278,16 @@ div.card ul li {
   div.iconSectionTwo i {
     width: 120px;
     height: 120px;
+  }
+  footer.footer div dt {
+    margin: 0;
+  }
+  div#iconsFooter a {
+    width: 60px;
+    height: 60px;
+  }
+  footer.footer div dd {
+    margin-top: 20px;
   }
 }
 @media (min-width: 1200px) {
