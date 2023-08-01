@@ -8,7 +8,7 @@
 ## Web-site desenvolvido no projeto
 ![image](https://github.com/SantosFab/First-Web-Project-Spotify/assets/104435547/392b7103-7839-40a5-971a-5b86a25febc9)
 ![image](https://github.com/SantosFab/First-Web-Project-Spotify/assets/104435547/62cddf06-815a-476a-a9fb-e576988bb645)
-![image](https://github.com/SantosFab/First-Web-Project-Spotify/assets/104435547/fd25fc91-9baa-4be1-a26c-e57e6a8e106f)
+![image](https://github.com/SantosFab/First-Web-Project-Spotify/assets/104435547/b60ef79c-7190-4ece-b50e-75d77b31dfeb)
 
 ## Layout - responsividade do projeto
 ![Part_one](https://github.com/SantosFab/First-Web-Project---Spotify/assets/104435547/7afc441b-4723-4480-8e51-41154f50feb1)
