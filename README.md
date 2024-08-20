@@ -1,4 +1,5 @@
-# Primeiro projeto desenvolvidos utilizando as Tecnologias HTML/CSS e BootsTrap
+# Spotify - Premium
+Primeiro projeto web, durante o desenvolvimento foi utilizado as tecnologias HTML/CSS e BootsTrap, para visualizar a aplicação [click aqui!](https://projectspotify.vercel.app/)
 
 ## Web-site original
 ![image](https://github.com/SantosFab/First-Web-Project-Spotify/assets/104435547/6e8c4421-eeeb-4141-8bae-b25737de19b1)
